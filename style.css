@@ -107,66 +107,7 @@
 /* ------------------------Section2 End---------------------- */
 
 /*------------------------- Section3 Start------------------- */
-.section3{
-    width: 80%;
-    height: 600px;
-    margin: 90px auto;
-    background-color: #ffffff;
-    box-shadow: 5px 4px 23px  #888888;;
-}
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.me-image{
-    display: inline-block; 
-    position: relative; 
-    width: 270px; 
-    height: 180px;
-    overflow: hidden; 
-    border-radius: 50%; 
-    left: 39%;
-    margin-top: 45px;
-    outline: 10px solid #ff4805;
-}
-.heading{
-    text-align: center;
-    padding-top: 40px;
-    font-weight: 800;
-    font-size: 55px;
-}
-.section3-description{
-    color: #737373;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    height: 60px;
-    width: 900px;
-    margin: 20px auto;
-}
-.about-btn{
-    height: 50px;
-    width: 290px;
-    text-align: center;
-    padding: 13px;
-    color: #525151;
-    background-color: #ffffff;
-    border: 2px solid #ff4500;
-    font-weight: bold;
-    border-radius: 20px;
-    margin: 20px 0;
-    position: relative;
-    left: 420px;
-    cursor: pointer;
-}
-.about-btn:hover{
-    background-color: #ff4500;
-    color: #fff;
-}
-
-
-/* ------------------Section3 End--------------- */
-.section4{
+.Section3{
     height: 260px;
     width: 1000px;
     border-radius: 4px;
@@ -193,7 +134,7 @@ img{
     border: none;
     cursor: pointer;
 }
-/* ------------------Section4 End--------------- */
+/* ------------------Section3 End--------------- */
 
 footer{
     width: 100%;
