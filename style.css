@@ -6,7 +6,7 @@
 /* banner start */
 .banner{
     height: 750px;
-    background-image: url(image.jpg);
+    background-image: url(images/banner/banner2.jpg);
 }
 .banner-title{
     width: 525px;
@@ -108,6 +108,65 @@
 
 /*------------------------- Section3 Start------------------- */
 .section3{
+    width: 80%;
+    height: 600px;
+    margin: 90px auto;
+    background-color: #ffffff;
+    box-shadow: 5px 4px 23px  #888888;;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.me-image{
+    display: inline-block; 
+    position: relative; 
+    width: 270px; 
+    height: 180px;
+    overflow: hidden; 
+    border-radius: 50%; 
+    left: 39%;
+    margin-top: 45px;
+    outline: 10px solid #ff4805;
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 800;
+    font-size: 55px;
+}
+.section3-description{
+    color: #737373;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    height: 60px;
+    width: 900px;
+    margin: 20px auto;
+}
+.about-btn{
+    height: 50px;
+    width: 290px;
+    text-align: center;
+    padding: 13px;
+    color: #525151;
+    background-color: #ffffff;
+    border: 2px solid #ff4500;
+    font-weight: bold;
+    border-radius: 20px;
+    margin: 20px 0;
+    position: relative;
+    left: 420px;
+    cursor: pointer;
+}
+.about-btn:hover{
+    background-color: #ff4500;
+    color: #fff;
+}
+
+
+/* ------------------Section3 End--------------- */
+.section4{
     height: 260px;
     width: 1000px;
     border-radius: 4px;
@@ -134,63 +193,84 @@
     border: none;
     cursor: pointer;
 }
+/* ------------------Section4 End--------------- */
 
-/* ------------------------Section3 End---------------------- */
-
-/*------------------------- Section4 Start------------------- */
-.section4{
-    width: 80%;
-    height: 600px;
-    margin: 90px auto;
-    background-color: rgb(255, 251, 245);
-    box-shadow: 5px 4px 23px  #888888;;
+footer{
+    width: 100%;
+    height: 540px;
+    background-color: #201f1f;
+    display: flex;
+    margin-top: 90px;
 }
-img{
-    max-width: 100%;
-    max-height: 100%;
-}
-.me-image{
-    display: inline-block; 
-    position: relative; 
-    width: 270px; 
-    height: 180px;
-    overflow: hidden; 
-    border-radius: 50%; 
-    left: 39%;
-    margin-top: 45px;
-    outline: 10px solid #ff4805;
-}
-.heading{
-    text-align: center;
-    padding-top: 40px;
-    font-weight: 800;
-    font-size: 55px;
-}
-.section4-description{
-    color: #737373;
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-    height: 60px;
-    width: 900px;
-    margin: 20px auto;
-}
-.about-btn{
-    height: 50px;
-    width: 290px;
-    text-align: center;
-    padding: 13px;
-    color: #525151;
-    background-color: #ffffff;
-    border: 2px solid #ff4500;
-    font-weight: bold;
-    border-radius: 20px;
-    margin: 20px 0;
+.left-side-content{
+    height: 380px;
+    width: 490px;
     position: relative;
-    left: 420px;
+    left: 190px;
+    top: 130px;
+}
+
+.footer-title{
+    color: #fff;
+    font-size: 44px;
+    font-weight: bold;
+}
+.left-side-description{
+    color: #e7e7e7;
+    font-size: 18px;
+    padding-top: 30px;
+    line-height: 28px;
+}
+.right-side-info{
+    color: #ebeaea;
+    font-size: 20px;
+}
+
+.icons ul{
+    display: flex;
+    list-style: none;
+}
+.icons ul li{
+    padding: 25px 11px;
+}
+.right-side-content{
+    position: relative;
+    left: 550px;
+    top: 130px;
+    height: 399px;
+    width: 390px;
+}
+.right-side-title{
+    color: #fff;
+    font-size: 25px;
+}
+.email{
+    background-color: #f2f2f2;
+    color: #e3e3e3;
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 300px;
+}
+textarea{
+    background-color: #f2f1f1;
+    color: #9d9d9d;
+    padding: 20px;
+    border-radius: 7px;
+    margin-top: 10px;
+}
+.send-btn{
+    padding: 20px 70px;
+    margin-top: 8px;
+    border-radius: 7px;
+    border: 2px solid #ff4500;
+    color: #ff4805;
+    font-weight: bold;
     cursor: pointer;
 }
-.about-btn:hover{
-    background-color: #ff4500;
+
+.send-btn:hover{
+    background-color: #ff4805;
     color: #fff;
 }
